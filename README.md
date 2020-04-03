@@ -30,3 +30,8 @@ minikube delete
 - run_kubernetes.sh: run app in Kubernetes
 - upload_docker.sh: upload image to DockerHub
 
+Kubernetes Steps
+Setup and Configure Docker locally
+Setup and Configure Kubernetes locally
+Create Flask app in Container
+Run via kubectl
