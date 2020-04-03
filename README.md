@@ -21,17 +21,17 @@ minikube delete
 
 ## A short explanation of our files in the repo
 
-- config.yml: CircleCI special file to test the code and get a passed-badge
-- app.py: main application, which calculates the predictions
-- Dockerfile: Build Docker image
-- make_prediction.sh: Send a request to Flask, in order to get the result of a prediction
-- Makefile: commands which automatise the environment setup and tests
-- run_docker.sh: run Docker
-- run_kubernetes.sh: run app in Kubernetes
-- upload_docker.sh: upload image to DockerHub
+1.config.yml: CircleCI special file to test the code and get a passed-badge
+2.app.py: main application, which calculates the predictions
+3.Dockerfile: Build Docker image
+4.make_prediction.sh: Send a request to Flask, in order to get the result of a prediction
+5.Makefile: commands which automatise the environment setup and tests
+6.run_docker.sh: run Docker
+7.run_kubernetes.sh: run app in Kubernetes
+8.upload_docker.sh: upload image to DockerHub
 
-Kubernetes Steps
-Setup and Configure Docker locally
-Setup and Configure Kubernetes locally
-Create Flask app in Container
-Run via kubectl
+Kubernetes Steps:
+1.Setup and Configure Docker locally
+2.Setup and Configure Kubernetes locally
+3.Create Flask app in Container
+4.Run via kubectl
