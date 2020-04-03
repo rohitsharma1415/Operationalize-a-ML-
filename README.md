@@ -1,4 +1,4 @@
-[![RohitS](https://circleci.com/gh/jerrykiz/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)](https://circleci.com/gh/jerrykiz/Operationalize-a-Machine-Learning-Microservice-API)
+[![RohitS](https://circleci.com/gh/rohitsharma1415/Operationalize-a-ML-.svg?style=svg)](https://circleci.com/gh/rohitsharma1415/Operationalize-a-ML-)
 
 # Operationalize-a-Machine-Learning-Microservice-API
 
@@ -8,18 +8,6 @@ Deploy a containerized Python flask application to serve out predictions (infere
 
 - Docker
 - Virtualbox
-
-I've done it on  Mac with this command:
-
-```
-brew cask install virtualbox
-```
-
-- For Minikube you have to give this command (on Mac)
-
-```
-brew cask install minikube
-```
 
 ### How the project goes:
 minikube start
